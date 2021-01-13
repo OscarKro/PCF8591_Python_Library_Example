@@ -31,7 +31,7 @@ vcc		->	5V
 scl		->	scl
 sda		->	sda
 a0/a3in -> 	whatever you want to read
-![pins](./images/pi_pins.jpg)
+![pins](./images/pins.jpg)
 
 
 
