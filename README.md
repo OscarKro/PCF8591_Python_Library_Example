@@ -26,10 +26,15 @@ Because Shundiamonds had originally placed his library under the MIT license I d
 
 ## how to wire
 PCF			pi
+
 gnd		->	gnd
+
 vcc		->	5V
+
 scl		->	scl
+
 sda		->	sda
+
 a0/a3in -> 	whatever you want to read
 ![pins](./images/pins.jpg)
 
