@@ -24,8 +24,14 @@ Because Shundiamonds had originally placed his library under the MIT license I d
 - Run "python3 PCF8591.py" in the terminal to confirm it working
 - Copy the PCF8591 class to your own project and use it like the example
 
+## extra data
+If you want/need to know more in depth information on the chip see the datasheet.
+
+https://www.nxp.com/docs/en/data-sheet/PCF8591.pdf
+
+
 ## how to wire
-PCF			pi
+PCF / pi
 
 gnd		->	gnd
 
@@ -37,6 +43,10 @@ sda		->	sda
 
 a0/a3in -> 	whatever you want to read
 ![pins](./images/pins.jpg)
+
+### caveats
+I only tested (and build) it in a very small amount of time on a late evening. As far as I could tell, everything worked just fine, but as with everything, on certain applications things may work different from what you've expected
+or maybe an error occurs that I've overseen. I cannot be held responsible for it nor will I feel any responsibillity for your project not working/failing/exploding/dying/causing damages. In other words, USE AT YOUR OWN RISK!
 
 
 
